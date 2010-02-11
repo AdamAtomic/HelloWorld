@@ -4,9 +4,8 @@ package
 
 	public class PlayState extends FlxState
 	{
-		public function PlayState()
+		override public function create():void
 		{
-			super();
 			add(new FlxText(0,0,100,"Hello, World!")); //adds a 100x20 text field at position 0,0 (upper left)
 		}
 	}
